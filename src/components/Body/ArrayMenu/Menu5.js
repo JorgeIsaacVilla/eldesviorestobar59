@@ -35,13 +35,13 @@ function Menu5({sectionId, onProductClick}){
             {pos:4,
             image: "imagen4",
             food:'combinado',
-            price:'23000',
+            price:'24000',
             ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño. '},
             
             {pos:5,
             image: "imagen5",
             food:'pollo',
-            price:'24000',
+            price:'23000',
             ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Costeño. '},
             
             {pos:6,
