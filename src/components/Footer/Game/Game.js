@@ -12,7 +12,7 @@ function Game() {
 
     const gamesITem =[
 
-        {url:"https://enycosmic.site/metaverso/",
+        {url:"https://enycosmicgames.vercel.app/",
          imageGame:pacman,
          nameGame:"Games Online",
         },
