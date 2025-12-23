@@ -21,7 +21,7 @@ function Menu13({sectionId, onProductClick}){
     {pos:2,
     image:"imagen2",
     food:"Deditos de Queso y Salsa",
-    price:10000,
+    price:13000,
     ingredients:""},
 
     {pos:3,
