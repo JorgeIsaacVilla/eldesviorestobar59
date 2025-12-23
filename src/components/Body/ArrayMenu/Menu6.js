@@ -13,41 +13,100 @@ function Menu6({sectionId, onProductClick}){
     
     const menuItem =[
 
-        {pos:1,
+        {
+        pos:1,
         image: "imagen1",
         food:'Clásica de la casa',
-        price:'20000',
-        ingredients:'Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
+        price:'25000',
+        ingredients:(
+        <>
+            Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. 
+            <br />
+            <strong style={{fontSize: '15px', color: '#F29B14' }}>
+                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+            </strong>
+        </>
+        )},
         
-        {pos:2,
+        {
+        pos: 2,
         image: "imagen2",
-        food:'Clásica de pollo',
-        price:'20000',
-        ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
+        food: 'Clásica de pollo',
+        price: '25000',
+        ingredients: (
+            <>
+            Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa.
+            <br />
+            <strong style={{ fontSize: '15px', color: '#F29B14' }}>
+                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+            </strong>
+            </>
+        )
+        },
         
-        {pos:3,
+        {
+        pos: 3,
         image: "imagen3",
-        food:'doble carne',
-        price:'30000',
-        ingredients:'Pan Brioche | Doble Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. '},
-        
-        {pos:4,
-        image: "imagen4",
-        food:'Hamburguesa artesanal',
-        price:'20000',
-        ingredients:'Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla Caramelizada | Salsa Tenesis. '},
-        
-        {pos:5,
-        image: "imagen5",
-        food:'Hamburguesa artesanal de pollo',
-        price:'20000',
-        ingredients:'Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Salsa Tenesis.'},
+        food: 'doble carne',
+        price: '35000',
+        ingredients: (
+            <>
+            Pan Brioche | Doble Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa.
+            <br />
+            <strong style={{ fontSize: '15px', color: '#F29B14' }}>
+                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+            </strong>
+            </>
+        )
+        },
 
-        {pos:6,
-            image: "imagen4",
-            food:'Hamburguesa London',
-            price:'34000',
-            ingredients:'Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.'},
+        {
+        pos: 4,
+        image: "imagen4",
+        food: 'Hamburguesa artesanal',
+        price: '25000',
+        ingredients: (
+            <>
+            Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla Caramelizada | Salsa Tenesis.
+            <br />
+            <strong style={{ fontSize: '15px', color: '#F29B14' }}>
+                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+            </strong>
+            </>
+        )
+        },
+
+        {
+        pos: 5,
+        image: "imagen5",
+        food: 'Hamburguesa artesanal de pollo',
+        price: '25000',
+        ingredients: (
+            <>
+            Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Salsa Tenesis.
+            <br />
+            <strong style={{ fontSize: '15px', color: '#F29B14' }}>
+                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+            </strong>
+            </>
+        )
+        },
+
+        {
+        pos: 6,
+        image: "imagen4",
+        food: 'Hamburguesa London',
+        price: '38000',
+        ingredients: (
+            <>
+            Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.
+            <br />
+            <strong style={{ fontSize: '15px', color: '#F29B14' }}>
+                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+            </strong>
+            </>
+        )
+        },
 
     ]
     return(

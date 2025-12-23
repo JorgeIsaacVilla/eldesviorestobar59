@@ -28,8 +28,8 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp"></a>
-                <div className="qr" onClick={toggleScannerQr}></div>
                 <div className="game" onClick={toggleGame}></div>
+                <div className="qr" onClick={toggleScannerQr}></div>
             </div>
         </>
     )

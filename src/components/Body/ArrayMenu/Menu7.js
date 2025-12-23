@@ -17,31 +17,31 @@ function Menu7({sectionId, onProductClick}){
             {pos:1,
             image: "imagen1",
             food:'combinado',
-            price:'30000',
+            price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:2,
             image: "imagen2",
             food:'pollo',
-            price:'28000',
+            price:'32000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:3,
             image: "imagen3",
             food:'carne-pollo',
-            price:'29000',
+            price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:4,
             image: "imagen4",
             food:'lomito',
-            price:'30000',
+            price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:5,
             image: "imagen5",
             food:'chori-buti',
-            price:'25000',
+            price:'28000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz'},
     ]
     return(

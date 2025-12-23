@@ -17,43 +17,49 @@ function Menu8({sectionId, onProductClick}){
             {pos:1,
             image: "imagen1",
             food:'Costillas BBQ',
-            price:'35000',
+            price:'38000',
             ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Criollas | Ensalada al Día. '},
             
             {pos:2,
             image: "imagen2",
             food:'Chuleta de cerdo',
-            price:'30000',
+            price:'35000',
             ingredients:'Loncha de Pernil Asado al Carbón | Papas Francesas | Ensalada. '},
             
             {pos:3,
             image: "imagen3",
             food:'parrillada mixta',
-            price:'32000',
+            price:'38000',
             ingredients:'150g de Carne Asado al Carbón | Pollo | Chorizo | Butifarra | Ensalada | Chimichurri Artesanal. '},
             
             {pos:4,
             image: "imagen4",
             food:'Pechuga Gratinada',
-            price:'30500',
+            price:'35000',
             ingredients:'300g de Pechuga de Pollo Asado al Carbón | Gratinada en Queso Mozzarella | 200g de Papas a la Francesa | Ensalada al Día. '},
             
             {pos:5,
             image: "imagen5",
             food:'pechuga asada',
-            price:'26000',
+            price:'30000',
             ingredients:'300g de Pechuga de Pollo Asado al Carbón | 200g de Papas a la Francesa | Ensalada al Día. '},
-            
+
             {pos:6,
             image: "imagen6",
+            food:'Punta gorda',
+            price:'45000',
+            ingredients:'300gr de Punta Gorda Asada al Carbón | Papas Francesas | Ensalada '},
+            
+            {pos:7,
+            image: "imagen6",
             food:'Lomo de res asado al carbón',
-            price:'32000',
+            price:'38000',
             ingredients:'300g de Lomo Ancho | 200g de Papas a la Francesa | Ensalada del Día | Mazorca Dulce Asada | Chimichurri Artesanal.'},
 
-            {pos:7,
+            {pos:8,
                 image: "imagen7",
                 food:'Bondiola De Cerdo',
-                price:'28000',
+                price:'32000',
                 ingredients:'300g de Bondiola | Ensalada.'},
     ]
     return(

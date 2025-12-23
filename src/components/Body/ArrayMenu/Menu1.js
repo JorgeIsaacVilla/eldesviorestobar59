@@ -16,64 +16,62 @@ function Menu1({sectionId, onProductClick}) {
         {pos:1,
         image: "imagen1",
         food:'SENCILLO',
-        price:'9000',
+        price:'10000',
         ingredients:'Pan Asado Al Carbón | Salchicha | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:2,
         image: "imagen2",
         food:'GEMELO',
-        price:'11000',
+        price:'13000',
         ingredients:'Pan | Salchicha Doble | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:3,
         image: "imagen3",
         food:'MEXICANO',
-        price:'13000',
+        price:'15000',
         ingredients:'(Perro Tradicional) Pan | Salchicha | Queso | Papas Chongo | Lechuga | Tártara | Tocineta | Chimichurri.'},
         
         {pos:4,
         image: "imagen4",
         food:'MEDIO SUIZO',
-        price:'15000',
+        price:'17000',
         ingredients:'Pan Asado Al Carbón | Media Salchicha Suiza | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:5,
         image: "imagen5",
         food:'CHORI-BUTI',
-        price:'16000',
+        price:'18000',
         ingredients:'Pan Asado Al Carbón | Chorizo y Butifarra | Queso | Papas | Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:6,
         image: "imagen6",
         food:'RANCHERO',
-        price:'15500',
+        price:'18000',
         ingredients:'Pan Asado Al Carbón | Salchicha Ranchera | Queso | Papas | Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:7,
         image: "imagen7",
         food:'SUIZO',
-        price:'18500',
+        price:'20000',
         ingredients:'Pan Asado Al Carbón | Salchicha Suiza | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:8,
         image: "imagen8",
         food:'SUIZO RANCHERO',
-        price:'24000',
+        price:'27000',
         ingredients:'Pan Asado Al Carbón | Salchicha Suiza | Salchicha Ranchera | Tocineta En cuadritos | Queso Costeño | Queso Mozzarella | Papas Chongo | Tártara.'},
         
         {pos:9,
         image: "imagen9",
         food:'Ítalo Hawaiano',
-        price:'20000',
+        price:'23000',
         ingredients:'Pan Asado Al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha.'},
         
         {pos:10,
         image: "imagen10",
         food:'ÍTALO SUIZO',
-        price:'21000',
+        price:'24000',
         ingredients:'Pan Asado Al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha Suiza.'},
-
-
     ];
 
     return(

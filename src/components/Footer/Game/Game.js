@@ -12,9 +12,9 @@ function Game() {
 
     const gamesITem =[
 
-        {url:"https://enycosmicgames.vercel.app/",
+        {url:"https://jorgeisaac.vercel.app",
          imageGame:pacman,
-         nameGame:"Games Online",
+         nameGame:"Games Online (En mantenimiento)",
         },
       
     ];
@@ -43,9 +43,11 @@ function Game() {
                                 </div>
                                 )}
                             </ul>
+                            <div className="line" style={{marginBottom:"16px"}}></div>
+                            <h2>Nuestras promociones</h2>
+                            <h2>para tí 🎁 </h2>
                         </div>
                     </div>
-                    
                 </div>
 
                 <div className="footer-component-menu">

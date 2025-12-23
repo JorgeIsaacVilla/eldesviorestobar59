@@ -15,9 +15,9 @@ function Header() {
             {menuVisible && <Menu />}
             <div className="component-header">
                 <div className="logo-restaurante"></div>
-                <div>
+                {/*<div>
                     <a href="https://jorgeisaacvilla.github.io/bebidas-restobar/" className="access-online-tarjet"><strong>Ver Productos Al Por mayor</strong></a>
-                </div>
+                </div>*/}
                 <div className="menu-hamburguesa" onClick={toggleMenu}></div>
             </div>
         </>

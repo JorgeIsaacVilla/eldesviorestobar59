@@ -1,5 +1,5 @@
 .component-footer{
-    background: #0D0D0D;
+    background: #0E0C0D;
     
     filter: drop-shadow(0px -6px 10px rgba(0, 0, 0, 0.30));
     height: 55px;
@@ -18,14 +18,9 @@
 .qr{
     width: 54px;
     height: 54px;
-    border-radius: 100%;
 
-    background: rgba(0, 204, 255, 0.76);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8.6px);
-    -webkit-backdrop-filter: blur(8.6px);
 
-    margin-top: -16px;
+
     background-image: url("./imgFooter/icoQr.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -33,12 +28,13 @@
     cursor: pointer;
 }
 .game{
-    background-image: url("./imgFooter/icoGame.svg");
+    background-image: url("./imgFooter/icoGift.gif");
     background-repeat: no-repeat;
     background-position: center;
     width: 54px;
     height: 54px;
-
+    background-size: cover;
+    margin-top: -16px;
     cursor: pointer;
 }
 
