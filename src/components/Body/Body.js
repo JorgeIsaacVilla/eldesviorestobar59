@@ -16,6 +16,7 @@ import { Menu12 } from "./ArrayMenu/Menu12";
 import { Menu13 } from "./ArrayMenu/Menu13";
 /*import { Menu14 } from "./ArrayMenu/Menu14";*/
 import { BannerProduct } from "./BannerProduct/BannerProduct";
+import priority1 from "./imgBody/priority1.gif";
 
 function Body() {
 
@@ -39,8 +40,29 @@ function Body() {
 
   /*Lógica de banner de producto (fin) */
 
+  /* Popup priority 1 */
+  const [showPopup, setShowPopup] = useState(true);
+
   return (
   <>
+      {showPopup && (
+        <div className="priority1-overlay">
+          <div className="priority1-modal">
+            <img
+              src={priority1}
+              alt="Promoción"
+              className="priority1-gif"
+            />
+            <button
+              className="priority1-close"
+              onClick={() => setShowPopup(false)}
+            >
+            <strong>Ver carta en línea</strong>
+            </button>
+          </div>
+        </div>
+      )}
+
     {isBannerVisible && <BannerProduct productInfo={selectedProduct} onClose={closeProductBanner}/>}
       <Slider 
       targetSection1="section1" 

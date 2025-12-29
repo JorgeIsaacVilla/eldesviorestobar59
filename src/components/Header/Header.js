@@ -3,25 +3,35 @@ import "./Header.css";
 import { Menu } from "./Menu/Menu";
 
 function Header() {
-
     const [menuVisible, setMenuVisible] = useState(false);
 
-    const toggleMenu = () =>{
-        setMenuVisible(!menuVisible);
+    const toggleMenu = () => {
+        setMenuVisible(prev => !prev);
     };
 
-    return(
+    return (
         <>
             {menuVisible && <Menu />}
             <div className="component-header">
                 <div className="logo-restaurante"></div>
-                {/*<div>
-                    <a href="https://jorgeisaacvilla.github.io/bebidas-restobar/" className="access-online-tarjet"><strong>Ver Productos Al Por mayor</strong></a>
-                </div>*/}
+
+                <div className="video-publicitario">
+                    
+                    <video
+                    src={process.env.PUBLIC_URL + "/2.mp4"}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    preload="auto"
+                    />
+
+                </div>
+
                 <div className="menu-hamburguesa" onClick={toggleMenu}></div>
             </div>
         </>
     );
 }
 
-export {Header};
+export { Header };

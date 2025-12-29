@@ -6,6 +6,8 @@ import twitter from "./imgMenu/icoTwitter.svg";
 import tiktok from "./imgMenu/icoTiktok.svg";
 import domicilio from "./imgMenu/icoDomicilio.svg";
 
+import priority1 from "../../Body/imgBody/priority1.gif";
+
 function Menu() {
 
     const [menuVisible, setMenuVisible] = useState(true);
@@ -66,6 +68,10 @@ function Menu() {
                             <p className="p-image-domicilio">Servicio a domicilios 3023844831.</p>
                         </div>
                     </div>
+                </div>
+
+                <div className="container-publicidad-menu">
+                    <img className="publicity-section-menu" src={priority1} alt="Promociones Restobar 59" />
                 </div>
 
                 <div className="footer-component-menu">

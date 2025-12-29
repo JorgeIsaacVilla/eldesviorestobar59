@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Game.css";
 
-import pacman from "./imgGame/pacman.png"
+import pacman from "./imgGame/pacman.png";
+import priority3 from "../imgFooter/priority3.gif";
 
 function Game() {
 
@@ -15,6 +16,10 @@ function Game() {
         {url:"https://jorgeisaac.vercel.app",
          imageGame:pacman,
          nameGame:"Games Online (En mantenimiento)",
+        },
+        {url:"https://jorgeisaac.vercel.app",
+         imageGame:"https://chuchito.shop/wp-content/uploads/2025/12/Isologo-scaled.png",
+         nameGame:"Tienda para bebes",
         },
       
     ];
@@ -30,7 +35,7 @@ function Game() {
                     </div>
 
                     <div className="contend-games">
-                        <h2>¡Juega </h2>
+                        <h2>¡Espacios para disfrutar </h2>
                         <h2>mientras esperas!</h2>
                         <div className="scroll-game">
                             <ul>
@@ -46,6 +51,9 @@ function Game() {
                             <div className="line" style={{marginBottom:"16px"}}></div>
                             <h2>Nuestras promociones</h2>
                             <h2>para tí 🎁 </h2>
+                            <div className="publicity-container-game">
+                                <img className="publicity-section-game" src={priority3} alt="Promociones Restobar 59" />
+                            </div>
                         </div>
                     </div>
                 </div>

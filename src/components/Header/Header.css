@@ -34,14 +34,12 @@
     align-items: center;
     width: auto;
 }
-/*
-.access-online-tarjet{
-    height: 30px;
-    border-radius: 8px;
-    padding: 8px;
-
-    color: rgba(0, 0, 0, 0.863);
-
-    background: rgba(0, 204, 255, 0.76);
+.video-publicitario video {
+    max-width: 250px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
 }
-*/
+
