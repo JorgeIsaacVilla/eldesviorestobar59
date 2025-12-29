@@ -17,7 +17,7 @@ function Game() {
          imageGame:pacman,
          nameGame:"Games Online (En mantenimiento)",
         },
-        {url:"https://jorgeisaac.vercel.app",
+        {url:"https://chuchito.shop",
          imageGame:"https://chuchito.shop/wp-content/uploads/2025/12/Isologo-scaled.png",
          nameGame:"Tienda para bebes",
         },
