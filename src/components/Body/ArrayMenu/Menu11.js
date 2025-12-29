@@ -173,7 +173,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:27,
         image: "imagen25",
         food:'Speed max 269ml',
-        price:2000,
+        price:3000,
         ingredients:''},
         
         {pos:28,
@@ -275,7 +275,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:44,
         image: "imagen42",
         food:'Club Colombia dorada 330ml',
-        price:5000,
+        price:6000,
         ingredients:''},
         
         {pos:45,
