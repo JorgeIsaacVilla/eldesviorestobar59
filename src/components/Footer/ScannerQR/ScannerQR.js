@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./ScannerQR.css"
 
-import imageNequi from "./imgScannerQR/icoNequi.svg"
+/*import imageNequi from "./imgScannerQR/icoNequi.svg"*/
 import imageBancolombia from "./imgScannerQR/icoBancolombia.svg"
 import imagenWeb from "./imgScannerQR/icoWeb.svg"
 
-import imgQrNequi from "./imgScannerQR/imgQrNequi.PNG"
+/*import imgQrNequi from "./imgScannerQR/imgQrNequi.PNG"*/
 import imgQrBancolombia from "./imgScannerQR/imgQrBancolombia.PNG"
 import imgQrWeb from "./imgScannerQR/imgQrWeb.PNG"
 
@@ -18,16 +18,16 @@ function ScannerQR() {
 
     const codeItem = [
 
-        {imagenApp:imageNequi,
+        /*{imagenApp:imageNequi,
          nameAPP:"Nequi",
-         QrApp:imgQrNequi},
+         QrApp:imgQrNequi},*/
 
          {imagenApp:imageBancolombia,
-         nameAPP:"Bancolombia",
+         nameAPP:"Bancolombia (Melisaa Jaramillo)",
          QrApp:imgQrBancolombia},
 
          {imagenApp:imagenWeb,
-         nameAPP:"Web",
+         nameAPP:"Página web",
          QrApp:imgQrWeb},
 
     ];
