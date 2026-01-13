@@ -25,7 +25,7 @@ function Menu6({sectionId, onProductClick}){
             Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa. 
             <br />
             <strong style={{fontSize: '15px', color: '#F29B14' }}>
-                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+                Por $8000 más lleva tu combo con papas y gaseosa 400ml
             </strong>
         </>
         )},
@@ -40,7 +40,7 @@ function Menu6({sectionId, onProductClick}){
             Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa.
             <br />
             <strong style={{ fontSize: '15px', color: '#F29B14' }}>
-                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+                Por $8000 más lleva tu combo con papas y gaseosa 400ml
             </strong>
             </>
         )
@@ -56,7 +56,7 @@ function Menu6({sectionId, onProductClick}){
             Pan Brioche | Doble Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Tártara de la Casa.
             <br />
             <strong style={{ fontSize: '15px', color: '#F29B14' }}>
-                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+                Por $8000 más lleva tu combo con papas y gaseosa 400ml
             </strong>
             </>
         )
@@ -72,7 +72,7 @@ function Menu6({sectionId, onProductClick}){
             Pan Brioche | Carne (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla Caramelizada | Salsa Tenesis.
             <br />
             <strong style={{ fontSize: '15px', color: '#F29B14' }}>
-                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+                Por $8000 más lleva tu combo con papas y gaseosa 400ml
             </strong>
             </>
         )
@@ -88,7 +88,7 @@ function Menu6({sectionId, onProductClick}){
             Pan Brioche | Pollo (Previamente Asado al Carbón) | Queso Mozzarella | Tomate | Cebolla | Salsa Tenesis.
             <br />
             <strong style={{ fontSize: '15px', color: '#F29B14' }}>
-                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+                Por $8000 más lleva tu combo con papas y gaseosa 400ml
             </strong>
             </>
         )
@@ -104,7 +104,7 @@ function Menu6({sectionId, onProductClick}){
             Pan Artesanal | Lechuga Crespa | Salsa Tenesis | Pechuga de Pollo | Carne de Res | Bondiola de Cerdo | Queso Mozzarella | Queso Cheeda | Tomate | Cebolla.
             <br />
             <strong style={{ fontSize: '15px', color: '#F29B14' }}>
-                Por $7000 más lleva tu combo con papas y gaseosa 400ml
+                Por $8000 más lleva tu combo con papas y gaseosa 400ml
             </strong>
             </>
         )
