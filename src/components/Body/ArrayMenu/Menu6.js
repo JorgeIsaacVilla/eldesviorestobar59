@@ -1,9 +1,11 @@
 import React from "react";
 import "./Menu.css";
-/*import imagen1 from "./imgMenu6/img1.jpg";
-import imagen2 from "./imgMenu6/img2.jpg";
+import imagen1 from "./imgMenu6/img1.jpg";
+
 import imagen3 from "./imgMenu6/img3.jpg";
-import imagen4 from "./imgMenu6/img4.jpg";*/
+
+
+import imageMaintenance from "../imgBody/imageMaintenance.png"
 
 function Menu6({sectionId, onProductClick}){
 
@@ -15,7 +17,7 @@ function Menu6({sectionId, onProductClick}){
 
         {
         pos:1,
-        image: "imagen1",
+        image:imagen1,
         food:'Clásica de la casa',
         price:'25000',
         ingredients:(
@@ -30,7 +32,7 @@ function Menu6({sectionId, onProductClick}){
         
         {
         pos: 2,
-        image: "imagen2",
+        image:imageMaintenance,
         food: 'Clásica de pollo',
         price: '25000',
         ingredients: (
@@ -46,7 +48,7 @@ function Menu6({sectionId, onProductClick}){
         
         {
         pos: 3,
-        image: "imagen3",
+        image:imagen3,
         food: 'doble carne',
         price: '35000',
         ingredients: (
@@ -62,7 +64,7 @@ function Menu6({sectionId, onProductClick}){
 
         {
         pos: 4,
-        image: "imagen4",
+        image:imageMaintenance,
         food: 'Hamburguesa artesanal',
         price: '25000',
         ingredients: (
@@ -78,7 +80,7 @@ function Menu6({sectionId, onProductClick}){
 
         {
         pos: 5,
-        image: "imagen5",
+        image:imageMaintenance,
         food: 'Hamburguesa artesanal de pollo',
         price: '25000',
         ingredients: (
@@ -94,7 +96,7 @@ function Menu6({sectionId, onProductClick}){
 
         {
         pos: 6,
-        image: "imagen4",
+        image:imageMaintenance,
         food: 'Hamburguesa London',
         price: '38000',
         ingredients: (
@@ -116,7 +118,7 @@ function Menu6({sectionId, onProductClick}){
                 {menuItem.map((item)=>
                 <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
-                       {/*<img src={item.image} />*/}
+                       <img src={item.image} />
                         <div>
                             <h3 
                              className="tittle-food">

@@ -1,10 +1,12 @@
 import React from "react";
 import "./Menu.css";
-/*import imagen1 from "./imgMenu8/img1.jpg";
-import imagen2 from "./imgMenu8/img2.jpg";
+
 import imagen3 from "./imgMenu8/img3.jpg";
 import imagen4 from "./imgMenu8/img4.jpg";
-import imagen8 from "./imgMenu8/img5.jpg";*/
+import imagen5 from "./imgMenu8/img5.jpg";
+import imagen6 from "./imgMenu8/img6.jpg";
+
+import imageMaintenance from "../imgBody/imageMaintenance.png"
 
 function Menu8({sectionId, onProductClick}){
 
@@ -15,49 +17,49 @@ function Menu8({sectionId, onProductClick}){
     const menuItem =[
 
             {pos:1,
-            image: "imagen1",
+            image: imageMaintenance,
             food:'Costillas BBQ',
             price:'38000',
             ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Criollas | Ensalada al Día. '},
             
             {pos:2,
-            image: "imagen2",
+            image: imageMaintenance,
             food:'Chuleta de cerdo',
             price:'35000',
             ingredients:'Loncha de Pernil Asado al Carbón | Papas Francesas | Ensalada. '},
             
             {pos:3,
-            image: "imagen3",
+            image: imagen3,
             food:'parrillada mixta',
             price:'38000',
             ingredients:'150g de Carne Asado al Carbón | Pollo | Chorizo | Butifarra | Ensalada | Chimichurri Artesanal. '},
             
             {pos:4,
-            image: "imagen4",
+            image: imagen4,
             food:'Pechuga Gratinada',
             price:'35000',
             ingredients:'300g de Pechuga de Pollo Asado al Carbón | Gratinada en Queso Mozzarella | 200g de Papas a la Francesa | Ensalada al Día. '},
             
             {pos:5,
-            image: "imagen5",
+            image: imagen5,
             food:'pechuga asada',
             price:'30000',
             ingredients:'300g de Pechuga de Pollo Asado al Carbón | 200g de Papas a la Francesa | Ensalada al Día. '},
 
             {pos:6,
-            image: "imagen6",
+            image: imagen6,
             food:'Punta gorda',
             price:'45000',
             ingredients:'300gr de Punta Gorda Asada al Carbón | Papas Francesas | Ensalada '},
             
             {pos:7,
-            image: "imagen6",
+            image: imageMaintenance,
             food:'Lomo de res asado al carbón',
             price:'38000',
             ingredients:'300g de Lomo Ancho | 200g de Papas a la Francesa | Ensalada del Día | Mazorca Dulce Asada | Chimichurri Artesanal.'},
 
             {pos:8,
-                image: "imagen7",
+                image: imageMaintenance,
                 food:'Bondiola De Cerdo',
                 price:'32000',
                 ingredients:'300g de Bondiola | Ensalada.'},
@@ -69,7 +71,7 @@ function Menu8({sectionId, onProductClick}){
                 {menuItem.map((item)=>
                 <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
-                       {/*<img src={item.image} />*/}
+                       <img src={item.image} />
                         <div>
                             <h3 
                              className="tittle-food">

@@ -1,10 +1,11 @@
 import React from "react";
 import "./Menu.css";
-/*import imagen1 from "./imgMenu4/img1.jpg";
-import imagen2 from "./imgMenu4/img2.jpg";
-import imagen3 from "./imgMenu4/img3.jpg";
-import imagen4 from "./imgMenu4/img4.jpg";
-import imagen5 from "./imgMenu4/img5.jpg";*/
+import imagen6 from "./imgMenu4/img6.jpg";
+import imagen8 from "./imgMenu4/img8.jpg";
+import imagen10 from "./imgMenu4/img10.jpg";
+import imagen12 from "./imgMenu4/img12.jpg";
+
+import imageMaintenance from "../imgBody/imageMaintenance.png"
 
 function Menu4({sectionId, onProductClick}){
 
@@ -15,79 +16,79 @@ function Menu4({sectionId, onProductClick}){
     const menuItem =[
                     
             {pos:1,
-            image: "imagen1",
+            image:imageMaintenance,
             food:'sencillo',
             price:'18000',
             ingredients:'Pan Asado al Carbón | Salchicha | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:2,
-            image: "imagen2",
+            image:imageMaintenance,
             food:'chori-buti',
             price:'22000',
             ingredients:'Pan | Chorizo | Butifarra | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:3,
-            image: "imagen3",
+            image:imageMaintenance,
             food:'gemelo',
             price:'22000',
             ingredients:'Pan | Salchicha Doble | Queso | Papas Chongo | Lechuga | Tártara. '},
             
             {pos:4,
-            image: "imagen4",
+            image:imageMaintenance,
             food:'ranchero',
             price:'25000',
             ingredients:'Pan Asado al Carbón | Salchicha Ranchera | Queso | Papas | Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:5,
-            image: "imagen5",
+            image:imageMaintenance,
             food:'suizo',
             price:'25000',
             ingredients:'Pan Asado al Carbón | Salchicha Suiza | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:6,
-            image: "imagen6",
+            image:imagen6,
             food:'ítalo hawaiano',
             price:'27000',
             ingredients:'Pan Asado al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha. '},
             
             {pos:7,
-            image: "imagen7",
+            image:imageMaintenance,
             food:'lomito',
             price:'30000',
             ingredients:'Pan Asado al Carbón | Lomito de Res | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:8,
-            image: "imagen8",
+            image:imagen8,
             food:'pollo',
             price:'27000',
             ingredients:'Pan Asado al Carbón | Pollo | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:9,
-            image: "imagen9",
+            image:imageMaintenance,
             food:'carne-pollo',
             price:'29000',
             ingredients:'Pan Asado al Carbón | Carne | Pollo | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:10,
-            image: "imagen10",
+            image:imagen10,
             food:'combinado',
             price:'29000',
             ingredients:'Pan Asado al Carbón | Carne | Pollo | Chorizo | Butifarra | Queso | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:11,
-            image: "imagen11",
+            image:imageMaintenance,
             food:'jamón gratinado',
             price:'23000',
             ingredients:'Pan Asado al Carbón | Jamón | Queso Mozzarella | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:12,
-            image: "imagen12",
+            image:imagen12,
             food:'escoces',
             price:'34000',
             ingredients:'Pan Asado al Carbón | Carne | Pollo | Chorizo | Butifarra | Queso Costeño | Queso Mozzarella Gratinado | Maíz | Papas Chongo | Lechuga | Tártara | Piña. '},
             
             {pos:13,
-            image: "imagen13",
+            image:imageMaintenance,
             food:'ítalo suizo',
             price:'30000',
             ingredients:'Pan Asado al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha Suiza.'},
@@ -99,7 +100,7 @@ function Menu4({sectionId, onProductClick}){
                 {menuItem.map((item)=>
                 <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
-                        {/*<img src={item.image} />*/}
+                        <img src={item.image} />
                         <div>
                             <h3 
                              className="tittle-food">

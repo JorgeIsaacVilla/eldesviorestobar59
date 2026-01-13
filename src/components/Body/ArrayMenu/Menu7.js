@@ -1,10 +1,9 @@
 import React from "react";
 import "./Menu.css";
-/*import imagen1 from "./imgMenu7/img1.jpg";
-import imagen2 from "./imgMenu7/img2.jpg";
-import imagen3 from "./imgMenu7/img3.jpg";
-import imagen4 from "./imgMenu7/img4.jpg";
-import imagen7 from "./imgMenu7/img5.jpg";*/
+
+import imagen5 from "./imgMenu7/img5.jpg";
+
+import imageMaintenance from "../imgBody/imageMaintenance.png"
 
 function Menu7({sectionId, onProductClick}){
 
@@ -15,31 +14,31 @@ function Menu7({sectionId, onProductClick}){
     const menuItem =[
 
             {pos:1,
-            image: "imagen1",
+            image: imageMaintenance,
             food:'combinado',
             price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:2,
-            image: "imagen2",
+            image: imagen5,
             food:'pollo',
             price:'32000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:3,
-            image: "imagen3",
+            image: imagen5,
             food:'carne-pollo',
             price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:4,
-            image: "imagen4",
+            image: imageMaintenance,
             food:'lomito',
             price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:5,
-            image: "imagen5",
+            image: imagen5,
             food:'chori-buti',
             price:'28000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz'},
@@ -51,7 +50,7 @@ function Menu7({sectionId, onProductClick}){
                 {menuItem.map((item)=>
                 <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
-                       {/*<img src={item.image} />*/}
+                       <img src={item.image} />
                         <div>
                             <h3 
                              className="tittle-food">
