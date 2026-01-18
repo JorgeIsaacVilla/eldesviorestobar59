@@ -47,8 +47,8 @@ function Menu11({sectionId, onProductClick}){
                 
         {pos:6,
         image: 'imageMaintenance',
-        food:'Jugo Hit tetra litro',
-        price:7000,
+        food:'Jugo Hit 1 litro',
+        price:8000,
         ingredients:''},
         
         {pos:7,
@@ -60,7 +60,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:8,
         image: 'imageMaintenance',
         food:'Mr. Tea',
-        price:4000,
+        price:5000,
         ingredients:''},
         
         {pos:9,
@@ -96,7 +96,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:14,
         image: 'imageMaintenance',
         food:'Electrolit 625ml',
-        price:10000,
+        price:12000,
         ingredients:''},
         
         {pos:15,
@@ -108,7 +108,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:16,
         image: 'imageMaintenance',
         food:'Gaseosa Litro',
-        price:5000,
+        price:6000,
         ingredients:''},
         
         {pos:17,
@@ -126,7 +126,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:19,
         image: 'imageMaintenance',
         food:'H2OH! lima limón 250ml',
-        price:1500,
+        price:2000,
         ingredients:''},
         
         {pos:20,
@@ -144,13 +144,13 @@ function Menu11({sectionId, onProductClick}){
         {pos:22,
         image: 'imageMaintenance',
         food:'Canadá dry 300ml',
-        price:3000,
+        price:5000,
         ingredients:''},
         
         {pos:23,
         image: 'imageMaintenance',
         food:'Bretaña 300ml',
-        price:4000,
+        price:5000,
         ingredients:''},
         
         {pos:24,
@@ -180,13 +180,13 @@ function Menu11({sectionId, onProductClick}){
         {pos:28,
         image: 'imageMaintenance',
         food:'Red Bull 250ml',
-        price:10000,
+        price:12000,
         ingredients:''},
         
         {pos:29,
         image: 'imageMaintenance',
         food:'Gaseosa Postobón 2.5ml',
-        price:9000,
+        price:10000,
         ingredients:''},
         
         {pos:30,
@@ -204,7 +204,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:32,
         image: 'imageMaintenance',
         food:'Andina dorada 250ml',
-        price:3500,
+        price:4000,
         ingredients:''},
         
         {pos:33,
@@ -222,7 +222,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:35,
         image: 'imageMaintenance',
         food:'Stella Artois 330ml',
-        price:10000,
+        price:12000,
         ingredients:''},
     
         {pos:36,
@@ -234,7 +234,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:37,
         image: 'imageMaintenance',
         food:'Michelob 355ml',
-        price:5000,
+        price:7000,
         ingredients:''},
 
         {pos:38,
@@ -288,7 +288,7 @@ function Menu11({sectionId, onProductClick}){
         {pos:46,
         image: 'imageMaintenance',
         food:'Smirnoff ice green Apple and ice original 275ml',
-        price:10000,
+        price:12000,
         ingredients:''},
         
         {pos:47,
