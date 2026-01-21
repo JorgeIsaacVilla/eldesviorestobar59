@@ -84,7 +84,11 @@ function Menu3({sectionId, onProductClick}){
                 {menuItem.map((item)=>
                 <li key= {item.pos} onClick={() => handleItemclick(item)}>
                     <div className="item-contend">
-                        <img src={item.image} />
+                        <img
+                            src={item.image}
+                            alt={item.food ? `Imagen de ${item.food}` : ""}
+                            loading="lazy"
+                        />
                         <div>
                             <h3 
                              className="tittle-food">
