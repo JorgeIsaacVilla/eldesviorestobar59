@@ -20,7 +20,7 @@ function Menu() {
     {
       redSocial: "instagram",
       imageRedSocial: instagram,
-      userRedSocial: "eldesviorestobar",
+      userRedSocial: "eldesviorestobar59",
       linkRedSocial:
         "https://instagram.com/eldesviorestobar59?igshid=NGVhN2U2NjQ0Yg==",
     },
@@ -100,7 +100,7 @@ function Menu() {
               <div>
                 <h2 className="h2-image-domicilio">¡Envío a domicilio!</h2>
                 <p className="p-image-domicilio">
-                  Servicio a domicilios 3023844831.
+                  Servicio a domicilios 322-258-44-28.
                 </p>
               </div>
             </div>
