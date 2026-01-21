@@ -1,78 +1,104 @@
 import React, { useState } from "react";
-import "./ScannerQR.css"
+import "./ScannerQR.css";
 
 /*import imageNequi from "./imgScannerQR/icoNequi.svg"*/
-import imageBancolombia from "./imgScannerQR/icoBancolombia.svg"
-import imagenWeb from "./imgScannerQR/icoWeb.svg"
+import imageBancolombia from "./imgScannerQR/icoBancolombia.svg";
+import imagenWeb from "./imgScannerQR/icoWeb.svg";
 
 /*import imgQrNequi from "./imgScannerQR/imgQrNequi.PNG"*/
-import imgQrBancolombia from "./imgScannerQR/imgQrBancolombia.PNG"
-import imgQrWeb from "./imgScannerQR/imgQrWeb.PNG"
+import imgQrBancolombia from "./imgScannerQR/imgQrBancolombia.PNG";
+import imgQrWeb from "./imgScannerQR/imgQrWeb.PNG";
 
 function ScannerQR() {
+  const [scannerQrVisible, setScannerQrVisible] = useState(true);
+  const toggleScannerQr = () => {
+    setScannerQrVisible((prev) => !prev);
+  };
 
-    const [scannerQrVisible, setScannerQrVisible] = useState(true);
-    const toggleScannerQr = () => {
-        setScannerQrVisible(!scannerQrVisible);
-    }
+  const codeItem = [
+    /*{
+      imagenApp: imageNequi,
+      nameAPP: "Nequi",
+      QrApp: imgQrNequi
+    },*/
+    {
+      imagenApp: imageBancolombia,
+      nameAPP: "Bancolombia (Melisaa Jaramillo)",
+      QrApp: imgQrBancolombia,
+    },
+    {
+      imagenApp: imagenWeb,
+      nameAPP: "Página web",
+      QrApp: imgQrWeb,
+    },
+  ];
 
-    const codeItem = [
+  return (
+    <>
+      {scannerQrVisible && (
+        <div className="component-scanner-qr">
+          <div className="component-header-footer">
+            <div className="logo-restaurante"></div>
+            <div
+              className="menu-closed"
+              onClick={toggleScannerQr}
+              role="button"
+              tabIndex={0}
+              aria-label="Cerrar sección de QR"
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") toggleScannerQr();
+              }}
+            ></div>
+          </div>
 
-        /*{imagenApp:imageNequi,
-         nameAPP:"Nequi",
-         QrApp:imgQrNequi},*/
+          <div className="tittle-footer">
+            <h2>Escanea el QR</h2>
+            <p>
+              Recuerda que una vez que efectúes el pago, debes hacer una captura y
+              enviar el comprobante por Whatsapp.
+            </p>
+          </div>
 
-         {imagenApp:imageBancolombia,
-         nameAPP:"Bancolombia (Melisaa Jaramillo)",
-         QrApp:imgQrBancolombia},
+          <div className="scroll-arra-qr">
+            <ul className="ul-conten-array-qr">
+              {codeItem.map((appItem) => (
+                <div key={appItem.nameAPP}>
+                  <div className="contend-array-footer">
+                    <img
+                      src={appItem.imagenApp}
+                      alt={appItem.nameAPP}
+                      loading="lazy"
+                    />
+                    <h3>{appItem.nameAPP}</h3>
+                  </div>
 
-         {imagenApp:imagenWeb,
-         nameAPP:"Página web",
-         QrApp:imgQrWeb},
-
-    ];
-    
-    return(
-        <>
-        {scannerQrVisible &&(
-            <div className="component-scanner-qr">
-
-                <div className="component-header-footer">
-                    <div className="logo-restaurante"></div>
-                    <div className="menu-closed" onClick={toggleScannerQr}></div>
+                  <div className="contend-code-qr">
+                    <img
+                      className="code-qr"
+                      src={appItem.QrApp}
+                      alt={`Código QR - ${appItem.nameAPP}`}
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
+              ))}
+            </ul>
+          </div>
 
-                <div className="tittle-footer">
-                    <h2>Escanea el QR</h2>
-                    <p>Recuerda que una vez que efectúes el pago, debes hacer una captura y enviar el comprobante por Whatsapp.</p>
-                </div>
-
-                <div className="scroll-arra-qr"> 
-
-                    <ul className="ul-conten-array-qr">
-                        {codeItem.map((appItem)=>
-                        <div key={appItem.nameAPP}>
-                            <div className="contend-array-footer">
-                                <img src={appItem.imagenApp} />
-                                <h3> {appItem.nameAPP} </h3>
-                            </div>
-                            <div className="contend-code-qr">
-                                <img className="code-qr" src= {appItem.QrApp} />
-                            </div>
-                        </div>
-                        )}
-                    </ul>
-
-                </div>
-
-                <div className="footer-component-menu">
-                    <div className="line" style={{marginBottom:"16px"}}></div>
-                    <a href="https://jorgeisaac.vercel.app/" >Realizado por Jorge Isaac Villa López | Portfolio.com</a>         
-                </div>
-
-            </div>
-        )}
-        </>
-    )
+          <div className="footer-component-menu">
+            <div className="line" style={{ marginBottom: "16px" }}></div>
+            <a
+              href="https://jorgeisaac.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Realizado por Jorge Isaac Villa López | Portfolio.com
+            </a>
+          </div>
+        </div>
+      )}
+    </>
+  );
 }
+
 export { ScannerQR };

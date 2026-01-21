@@ -61,3 +61,12 @@
   a{
     text-decoration: none;
   }
+  .slider-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+}

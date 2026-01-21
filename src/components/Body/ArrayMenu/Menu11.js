@@ -1,17 +1,19 @@
 import React from "react";
 import "./Menu.css";
-/*import imagen1 from "./imgMenu10/img1.jpg";
-import imagen2 from "./imgMenu10/img2.jpg";
-import imagen3 from "./imgMenu10/img3.jpg";
-import imagen4 from "./imgMenu10/img4.jpg";
-import imagen5 from "./imgMenu10/img5.jpg";
-import imageMaintenance from "../imgBody/imageMaintenance.png";*/
 
-function Menu11({sectionId, onProductClick}){
+// Imágenes desactivadas por ahora
+// import imagen1 from "./imgMenu10/img1.jpg";
+// import imagen2 from "./imgMenu10/img2.jpg";
+// import imagen3 from "./imgMenu10/img3.jpg";
+// import imagen4 from "./imgMenu10/img4.jpg";
+// import imagen5 from "./imgMenu10/img5.jpg";
+// import imageMaintenance from "../imgBody/imageMaintenance.png";
 
-    {/*const handleItemclick = (item) => {
-        onProductClick(item);
-    }*/}
+function Menu11({ sectionId }) {
+  // Lógica futura (cuando se reactive el popup):
+  // const handleItemclick = (item) => {
+  //   onProductClick(item);
+  // };
 
     const menuItem =[
         
@@ -297,33 +299,40 @@ function Menu11({sectionId, onProductClick}){
         price:2000,
         ingredients:''},
     ]
-    return(
-        <>
-            <h2 className="tittle-item" id={sectionId}>BEBIDAS</h2>
-            <ul>
-                {menuItem.map((item)=>
-                <li key= {item.pos}>
-                {/*<li key= {item.pos} onClick={() => handleItemclick(item)}>*/}
-                    <div className="item-contend">
-                       {/*<img
-                            src={item.image}
-                            alt={item.food ? `Imagen de ${item.food}` : ""}
-                            loading="lazy"
-                        />*/}
-                        <div>
-                            <h3 
-                             className="tittle-food">
-                                {item.food}</h3>
-                                <p className="ingredients">
-                                    {item.ingredients}
-                                </p>
-                        </div>
-                    </div>
-                    <p className="price"> <strong>${item.price}</strong> </p>
-                </li>
-                )}
-            </ul>
-        </>
-    )
-};
+    return (
+    <>
+      <h2 className="tittle-item" id={sectionId}>
+        BEBIDAS
+      </h2>
+
+      <ul>
+        {menuItem.map((item) => (
+          <li key={item.pos}>
+            {/* Click futuro:
+            <li key={item.pos} onClick={() => handleItemclick(item)}>
+            */}
+            <div className="item-contend">
+              {/* Imagen futura:
+              <img
+                src={item.image}
+                alt={item.food ? `Imagen de ${item.food}` : ""}
+                loading="lazy"
+              />
+              */}
+              <div>
+                <h3 className="tittle-food">{item.food}</h3>
+                <p className="ingredients">{item.ingredients}</p>
+              </div>
+            </div>
+
+            <p className="price">
+              <strong>${item.price}</strong>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
 export { Menu11 };
