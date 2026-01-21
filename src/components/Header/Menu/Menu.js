@@ -8,7 +8,7 @@ import instagram from "./imgMenu/icoInstagram.svg";
 // import tiktok from "./imgMenu/icoTiktok.svg";
 
 import domicilio from "./imgMenu/icoDomicilio.svg";
-import priority1 from "../../Body/imgBody/priority1.gif";
+import priority1 from "../../Body/imgBody/priority1.1.gif";
 
 function Menu() {
   const [menuVisible, setMenuVisible] = useState(true);
