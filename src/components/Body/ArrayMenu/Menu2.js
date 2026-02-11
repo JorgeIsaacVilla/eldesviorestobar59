@@ -1,7 +1,10 @@
 import React from "react";
 import "./Menu.css";
 
+import imagen1 from "./imgMenu2/img1.png";
 import imagen6 from "./imgMenu2/img6.jpg";
+import imagen8 from "./imgMenu2/img8.png";
+import imagen9 from "./imgMenu2/img9.png";
 import imagen10 from "./imgMenu2/img10.jpg";
 
 import imageMaintenance from "../imgBody/imageMaintenance.png"
@@ -14,7 +17,7 @@ function Menu2({sectionId, onProductClick}){
 
     const menuItem =[
         {pos:1,
-        image: imageMaintenance,
+        image: imagen1,
         food:'SENCILLO',
         price:'14000',
         ingredients:'Maíz | Lechuga | Papa Chongo | Salsa Tártara | Piña | Queso Costeño. '},
@@ -56,13 +59,13 @@ function Menu2({sectionId, onProductClick}){
         ingredients:'Maíz | Lechuga | Papa Chongo | Salsa Tártara | Piña | Queso Costeño | Carne y Pollo.'},
         
         {pos:8,
-        image: imageMaintenance,
+        image: imagen8,
         food:'CHORI-BUTI',
         price:'22000',
         ingredients:'Maíz | Lechuga | Papa Chongo | Salsa Tártara | Piña | Queso Costeño | Chorizo | Butifarra. '},
         
         {pos:9,
-        image: imageMaintenance,
+        image: imagen9,
         food:'LOMITO',
         price:'31000',
         ingredients:'Maíz | Lechuga | Papa Chongo | Salsa Tártara | Piña | Queso Costeño | Lomito de Res. '},
