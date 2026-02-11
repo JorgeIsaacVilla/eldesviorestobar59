@@ -1,9 +1,9 @@
 import React from "react";
 import "./Menu.css";
 
+import imagen1 from "./imgMenu7/img1.png";
+import imagen4 from "./imgMenu7/img4.png";
 import imagen5 from "./imgMenu7/img5.jpg";
-
-import imageMaintenance from "../imgBody/imageMaintenance.png"
 
 function Menu7({sectionId, onProductClick}){
 
@@ -14,7 +14,7 @@ function Menu7({sectionId, onProductClick}){
     const menuItem =[
 
             {pos:1,
-            image: imageMaintenance,
+            image: imagen1,
             food:'combinado',
             price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Mozzarella con Maíz. '},
@@ -32,7 +32,7 @@ function Menu7({sectionId, onProductClick}){
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Carne | Pollo | Tártara | Piña | Queso Mozzarella con Maíz. '},
             
             {pos:4,
-            image: imageMaintenance,
+            image: imagen4,
             food:'lomito',
             price:'34000',
             ingredients:'Patacón de Plátano Verde | Queso Costeño | Lechuga | Papa Chongo | Lomito de Res | Tártara | Piña | Queso Mozzarella con Maíz. '},
