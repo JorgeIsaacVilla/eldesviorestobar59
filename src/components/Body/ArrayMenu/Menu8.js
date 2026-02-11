@@ -1,10 +1,11 @@
 import React from "react";
 import "./Menu.css";
 
+import imagen2 from "./imgMenu8/img2.png";
 import imagen3 from "./imgMenu8/img3.jpg";
 import imagen4 from "./imgMenu8/img4.jpg";
 import imagen5 from "./imgMenu8/img5.jpg";
-import imagen6 from "./imgMenu8/img6.jpg";
+import imagen6 from "./imgMenu8/img6.png";
 
 import imageMaintenance from "../imgBody/imageMaintenance.png"
 
@@ -23,7 +24,7 @@ function Menu8({sectionId, onProductClick}){
             ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Francesas | Ensalada. '},
             
             {pos:2,
-            image: imageMaintenance,
+            image: imagen2,
             food:'Chuleta de cerdo',
             price:'35000',
             ingredients:'Loncha de Pernil Asado al Carbón | Papas Francesas | Ensalada. '},
