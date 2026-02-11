@@ -1,6 +1,8 @@
 import React from "react";
 import "./Menu.css";
 
+import imagen1 from "./imgMenu5/img1.png";
+import imagen4 from "./imgMenu5/img4.png";
 import imagen5 from "./imgMenu5/img5.jpg";
 import imagen6 from "./imgMenu5/img6.jpg";
 
@@ -15,7 +17,7 @@ function Menu5({sectionId, onProductClick}){
     const menuItem =[
             
             {pos:1,
-            image:imageMaintenance,
+            image:imagen1,
             food:'chori-buti',
             price:'22000',
             ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Chorizo y Butifarra | Tártara | Piña | Queso Costeño. '},
@@ -33,7 +35,7 @@ function Menu5({sectionId, onProductClick}){
             ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Salchicha Ranchera | Tártara | Piña | Queso Costeño. '},
             
             {pos:4,
-            image:imageMaintenance,
+            image:imagen4,
             food:'combinado',
             price:'27000',
             ingredients:'Bollo Limpio | Lechuga | Papa Chongo | Carne | Pollo | Chorizo | Butifarra | Tártara | Piña | Queso Costeño. '},
