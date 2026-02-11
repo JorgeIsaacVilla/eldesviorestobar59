@@ -1,11 +1,14 @@
 import React from "react";
 import "./Menu.css";
 import imagen1 from "./imgMenu1/img1.webp";
-/*import imagen2 from "./imgMenu1/img2.jpg";*/
+import imagen2 from "./imgMenu1/img2.png";
 import imagen3 from "./imgMenu1/img3.webp";
 import imagen4 from "./imgMenu1/img4.webp";
+import imagen6 from "./imgMenu1/img6.png";
+import imagen7 from "./imgMenu1/img7.png";
 import imagen8 from "./imgMenu1/img8.webp";
 import imagen9 from "./imgMenu1/img9.webp";
+import imagen10 from "./imgMenu1/img10.png";
 
 import imageMaintenance from "../imgBody/imageMaintenance.png"
 
@@ -23,7 +26,7 @@ function Menu1({sectionId, onProductClick}) {
         ingredients:'Pan Asado Al Carbón | Salchicha | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:2,
-        image: imageMaintenance,
+        image: imagen2,
         food:'GEMELO',
         price:'13000',
         ingredients:'Pan | Salchicha Doble | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
@@ -47,13 +50,13 @@ function Menu1({sectionId, onProductClick}) {
         ingredients:'Pan Asado Al Carbón | Chorizo y Butifarra | Queso | Papas | Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:6,
-        image: imageMaintenance,
+        image: imagen6,
         food:'RANCHERO',
         price:'18000',
         ingredients:'Pan Asado Al Carbón | Salchicha Ranchera | Queso | Papas | Chongo | Lechuga | Tártara | Piña.'},
         
         {pos:7,
-        image: imageMaintenance,
+        image: imagen7,
         food:'SUIZO',
         price:'20000',
         ingredients:'Pan Asado Al Carbón | Salchicha Suiza | Queso | Papas Chongo | Lechuga | Tártara | Piña.'},
@@ -71,7 +74,7 @@ function Menu1({sectionId, onProductClick}) {
         ingredients:'Pan Asado Al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha.'},
         
         {pos:10,
-        image: imageMaintenance,
+        image: imagen10,
         food:'ÍTALO SUIZO',
         price:'24000',
         ingredients:'Pan Asado Al Carbón | Papas Chongo | Lechuga | Tártara | Piña | Jamón | Tocineta | Queso Mozzarella | Salchicha Suiza.'},
