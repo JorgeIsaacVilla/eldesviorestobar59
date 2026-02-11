@@ -1,9 +1,9 @@
 import React from "react";
 import "./Menu.css";
+
 import imagen1 from "./imgMenu6/img1.jpg";
-
-import imagen3 from "./imgMenu6/img3.jpg";
-
+import imagen3 from "./imgMenu6/img3.png";
+import imagen6 from "./imgMenu6/img6.png";
 
 import imageMaintenance from "../imgBody/imageMaintenance.png"
 
@@ -96,7 +96,7 @@ function Menu6({sectionId, onProductClick}){
 
         {
         pos: 6,
-        image:imageMaintenance,
+        image:imagen6 ,
         food: 'Hamburguesa London',
         price: '38000',
         ingredients: (
