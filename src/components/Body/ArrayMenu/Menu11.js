@@ -25,8 +25,8 @@ function Menu11({ sectionId }) {
         
         {pos:2,
         image: 'imageMaintenance',
-        food:'Canada Dry',
-        price:5000,
+        food:'Agua de manzana 280ml',
+        price:2000,
         ingredients:''},
 
         {pos:3,
@@ -121,7 +121,7 @@ function Menu11({ sectionId }) {
             
         {pos:18,
         image: 'imageMaintenance',
-        food:'Agua 600ml',
+        food:'Jugo Hit pet 300ml',
         price:3000,
         ingredients:''},
 

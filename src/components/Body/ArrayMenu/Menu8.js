@@ -20,7 +20,7 @@ function Menu8({sectionId, onProductClick}){
             image: imageMaintenance,
             food:'Costillas BBQ',
             price:'38000',
-            ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Criollas | Ensalada al Día. '},
+            ingredients:'400g de Costillitas de Cerdo Asado al Carbón | Salsa BBQ | Papas Francesas | Ensalada. '},
             
             {pos:2,
             image: imageMaintenance,
@@ -38,13 +38,13 @@ function Menu8({sectionId, onProductClick}){
             image: imagen4,
             food:'Pechuga Gratinada',
             price:'35000',
-            ingredients:'300g de Pechuga de Pollo Asado al Carbón | Gratinada en Queso Mozzarella | 200g de Papas a la Francesa | Ensalada al Día. '},
+            ingredients:'300g de Pechuga de Pollo Asado al Carbón | Gratinada en Queso Mozzarella | Papas Francesas | Ensalada. '},
             
             {pos:5,
             image: imagen5,
             food:'pechuga asada',
             price:'30000',
-            ingredients:'300g de Pechuga de Pollo Asado al Carbón | 200g de Papas a la Francesa | Ensalada al Día. '},
+            ingredients:'300g de Pechuga de Pollo Asado al Carbón | Papas Francesas | Ensalada. '},
 
             {pos:6,
             image: imagen6,
@@ -56,7 +56,7 @@ function Menu8({sectionId, onProductClick}){
             image: imageMaintenance,
             food:'Lomo de res asado al carbón',
             price:'38000',
-            ingredients:'300g de Lomo Ancho | 200g de Papas a la Francesa | Ensalada del Día | Mazorca Dulce Asada | Chimichurri Artesanal.'},
+            ingredients:'300g de Lomo Ancho | Papas Francesas | Ensalada del Día | Mazorca Dulce Asada | Chimichurri Artesanal.'},
 
             {pos:8,
                 image: imageMaintenance,
