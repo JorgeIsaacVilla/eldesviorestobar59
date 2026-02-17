@@ -38,7 +38,7 @@ function Menu11({ sectionId }) {
         {pos:4,
         image: 'imageMaintenance',
         food:'Agua cristal 300ml',
-        price:1000,
+        price:1500,
         ingredients:''},
         
         {pos:5,
@@ -68,7 +68,7 @@ function Menu11({ sectionId }) {
         {pos:9,
         image: 'imageMaintenance',
         food:'Gaseosa Postobón 250ml',
-        price:2500,
+        price:3000,
         ingredients:''},
         
         {pos:10,
@@ -194,7 +194,7 @@ function Menu11({ sectionId }) {
         {pos:30,
         image: 'imageMaintenance',
         food:'Coronita 210ml',
-        price:5000,
+        price:7000,
         ingredients:''},
         
         {pos:31,
@@ -278,7 +278,7 @@ function Menu11({ sectionId }) {
         {pos:44,
         image: 'imageMaintenance',
         food:'Club Colombia dorada 330ml',
-        price:6000,
+        price:7000,
         ingredients:''},
         
         {pos:45,
@@ -297,6 +297,12 @@ function Menu11({ sectionId }) {
         image: 'imageMaintenance',
         food:'Adicional Micheladas',
         price:2000,
+        ingredients:''},
+        
+        {pos:48,
+        image: 'imageMaintenance',
+        food:'Coca-cola 250ml',
+        price:3000,
         ingredients:''},
     ]
     return (

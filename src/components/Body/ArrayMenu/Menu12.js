@@ -87,6 +87,11 @@ function Menu12({sectionId, onProductClick}){
     food:"Ranchera",
     price:6000,
     ingredients:""},
+
+    {pos:17,
+    food:"Adicional de piña",
+    price:5000,
+    ingredients:""},
     ]
     return(
         <>
